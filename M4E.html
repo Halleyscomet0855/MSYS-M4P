@@ -27,7 +27,7 @@
 
 <h1><b>Some Header</b></h1>
   
-<div class="container">
+<div class="form">
   <hr class="solid">
     <div class="row">
       <div class="col">
@@ -49,14 +49,9 @@
     
       <div class="col">
         <div class="form-group">
-          <label for="supername">Field 3</label>
-          <input type="text" class="form-control" id="supername">
-        </div>
-      </div>
-
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+           <label for="Field 3" class="form-label">Field 3</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" columns="1"></textarea>
+        </div>
       </div>
 
       <div class="col">
@@ -166,45 +161,8 @@
       </div>
 </div>
 
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>
-  document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const field1 = document.getElementById('name1').value;
-    const field2 = document.getElementById('name2').value;
-    const field3 = document.getElementById('supername').value;
-    const tbody = document.getElementById('table-body');
-    const row = `<tr><td>${tbody.childElementCount + 1}</td><td>${field1}</td><td>${field2}</td><td>${field3}</td></tr>`;
-    tbody.innerHTML += row;
-    document.getElementById('name1').value = '';
-    document.getElementById('name2').value = '';
-    document.getElementById('supername').value = '';
-  });
-</script>
-
-
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
-  
-  <div class="carousel-inner">
+ <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="TI.jpg" alt="TI" class="d-block" style="width:100%">
     </div>
@@ -214,16 +172,20 @@
     <div class="carousel-item">
       <img src="JLU.jpg" alt="JLU" class="d-block" style="width:100%">
     </div>
+ <div class="carousel-item">
+      <img src="TT.jpg" alt="TT" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item ">
+      <img src="GB.jpg" alt="GB" class="d-block" style="width:100%">
+    </div>
+ <div class="carousel-item">
+      <img src="HQ.jpg" alt="HQ" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="SM.jpg" alt="SM" class="d-block" style="width:100%">
+    </div>
   </div>
   
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-
 
 
 </body>

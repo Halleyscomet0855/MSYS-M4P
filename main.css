@@ -18,16 +18,37 @@
     width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
   .col, .col-1 {
-    border: 1px solid black;
+    border: 1px  black;
     padding: 8px;
     text-align: left;
   }
-  #toprow {
 
-  }
   .btn {
-    border: 1px solid black;
+   background-color: #0096FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+.carousel-inner {
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 80%;
   }
 </style>
